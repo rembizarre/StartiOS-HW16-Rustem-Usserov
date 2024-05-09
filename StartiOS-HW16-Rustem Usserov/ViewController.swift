@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        NetworkManager.shared.getData(urlRequest: "https://api.magicthegathering.io/v1/cards?name=Black%20Lotus")
     }
 
 
